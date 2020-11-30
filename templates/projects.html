@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Project
+{% endblock %}
+
+{% block content %}
+<h1>Projects</h1>
+
+
+<div class="card" style="width: 25rem;">
+
+    <img src="{{url_for('static', filename='./images/robot.jpg')}}" class="card-img-top" alt="Robot">
+    <div class="card-body">
+      <h5 class="card-title">YouTube</h5>
+      <p class="card-text"> This is my first projects. Welcome!</p>
+      <a href="https://github.com/pablojrosa/youtube_apiv3" class="btn btn-primary">Click here!</a>
+    </div>
+</div>
+
+{% endblock %}
